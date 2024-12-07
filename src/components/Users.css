@@ -1,0 +1,79 @@
+/* General container styling */
+.users-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.users-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+.users-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.users-form-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.users-form-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.users-form-input:focus {
+  border-color: #007bff;
+}
+
+/* Button styling */
+.users-form-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.users-form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .users-container {
+    padding: 15px;
+  }
+
+  .users-header {
+    font-size: 20px;
+  }
+
+  .users-form-input,
+  .users-form-button {
+    font-size: 14px;
+  }
+}

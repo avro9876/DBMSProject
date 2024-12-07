@@ -1,0 +1,36 @@
+/* ViewStudents.css */
+.view-students-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+
+  }
+  
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+  }
+  
+  .students-table th, .students-table td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+  }
+  
+  .students-table th {
+    background-color: #000000;
+  }
+  
+  .students-table button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .students-table button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,60 @@
+/* AddStudent.css */
+.add-student-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .add-student-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-student-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .add-student-label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .add-student-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-student-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-student-button:hover {
+    background-color: #45a049;
+  }
+  
+  .success-message {
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: #f44336;
+    margin-bottom: 20px;
+  }
+  

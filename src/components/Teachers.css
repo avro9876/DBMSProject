@@ -1,0 +1,139 @@
+/* General container styling for the teachers page */
+.teachers-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .teachers-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container styling */
+  .teachers-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Label for form elements */
+  .teachers-form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input fields styling */
+  .teachers-form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Submit button styling */
+  .teachers-form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .teachers-form-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table container styling */
+  .teachers-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Table header and data cell styling */
+  .teachers-table-th, .teachers-table-td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .teachers-table-th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .teachers-table-tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .teachers-table-tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button styling inside the table for actions */
+  .teachers-table-action-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .teachers-table-action-button:first-child {
+    margin-right: 10px;
+  }
+  
+  .teachers-table-action-button:hover {
+    background-color: #e60000;
+  }
+  
+  .teachers-table-action-button:focus {
+    outline: none;
+  }
+  
+  /* Media Queries for responsive design */
+  @media (max-width: 768px) {
+    .teachers-container {
+      width: 90%;
+    }
+  
+    .teachers-form {
+      padding: 15px;
+    }
+  
+    .teachers-table {
+      font-size: 14px;
+    }
+  
+    .teachers-table-th, .teachers-table-td {
+      padding: 8px;
+    }
+  
+    .teachers-form-button {
+      font-size: 14px;
+    }
+  }
+  

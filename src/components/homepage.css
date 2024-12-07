@@ -1,0 +1,55 @@
+/* HomePage.css */
+
+body{
+  background-image: url(home.jpg
+  
+  );
+
+}
+.homepage-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .homepage-header {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .logged-in-section,
+  .logged-out-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .homepage-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .homepage-button:hover {
+    background-color: #45a049;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+  }
+  
+  .logout-button:hover {
+    background-color: #e53935;
+
+ 
+
+  }
+  
